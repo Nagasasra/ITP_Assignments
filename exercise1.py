@@ -1,0 +1,7 @@
+data = input("Sample Data: ")
+print("Output:")
+list1 = data.split(',')
+tuple1 = tuple(list1)
+#print(list1)
+print("List: "+str(list1))
+print("Tuple: "+str(tuple1))
